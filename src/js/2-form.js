@@ -34,6 +34,7 @@ const onFormSubmit = event => {
     
   const email = formEl.elements['email'].value;
   const message = formEl.elements['message'].value;
+    
   if (email === ''|| message === '') {
     alert('Fill please all fields');
     return;
